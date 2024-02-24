@@ -9,14 +9,14 @@ Before you begin, ensure you have installed Vagrant and KVM on your machine.
 
 **Getting Started**
 
-1. Clone this repository:
-    git clone https://github.com/v-s-chauhan/ansible-lab-with-vagrant.git
-    cd ansible-lab-with-vagrant
-2. Customize the Vagrantfile if needed. You can modify variables such as the number of virtual machines, memory, and CPU
-3. Run the following command to start the lab:
-    cd vagrant  
-    vagrant up  
-4. Wait for the setup to complete. Once finished, you will have a fully functional Ansible lab with VMs ready for use.  
+1. Clone this repository:  
+    git clone https://github.com/v-s-chauhan/ansible-lab-with-vagrant.git  
+    cd ansible-lab-with-vagrant  
+2. Customize the Vagrantfile if needed. You can modify variables such as the number of virtual machines, memory, and CPU.    
+3. Run the following command to start the lab:  
+    cd vagrant    
+    vagrant up    
+4. Wait for the setup to complete. Once finished, you will have a fully functional Ansible lab with VMs ready for use.   
 
 **Accessing Virtual Machines**
 
