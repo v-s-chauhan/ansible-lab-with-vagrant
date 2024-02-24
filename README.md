@@ -5,9 +5,7 @@ This project allows you to automatically deploy a small Ansible lab using Vagran
 
 **Prerequisites**
 
-Before you begin, ensure you have the following installed on your machine:
-    Vagrant
-    KVM
+Before you begin, ensure you have installed Vagrant and KVM on your machine.
 
 **Getting Started**
 
@@ -29,10 +27,10 @@ cnvm01 is the controller node, clvm01, clvm02 etc. are the client machines. Thes
 
 **Testing Ansible from the Controller node.**
 
-Step 1. Logint to the controller node  
+1. Logint to the controller node  
    vagrant ssh cnvm01  
    cd ~/src/  
-Step 2. Test ansible using ping (from the controller node cnvm01)  
+2. Test ansible using ping (from the controller node cnvm01)  
    ./ansible-ping.sh  
-Step 3. Execute simple ansible playbook(from the controller node cnvm01)  
+3. Execute simple ansible playbook(from the controller node cnvm01)  
    ./yaml-exec.sh  
